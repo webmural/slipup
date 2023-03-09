@@ -1,3 +1,3 @@
-## [slipup mural](https://webmural.com/iona)
+## [slipup mural](https://webmural.com/slipup)
 
 [heaven scent](iona.css)
