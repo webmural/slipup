@@ -1,30 +1,30 @@
 * { box-sizing: border-box }
-:root { background: plum; color: #110111; }
-::selection { background: darkviolet; color: lightsalmon }
+:root { background: deepskyblue; color: #110111; }
+::selection { background: hotpink; color: indigo }
 
 .wox {
-  background-color: violet;
-  background-image: linear-gradient(.333turn, violet, violet 30%, hotpink 30%, hotpink);
+  background-color: deepskyblue;
+  background-image: linear-gradient(.333turn, mediumpurple, mediumpurple 80%, transparent 80%, transparent);
 }
 
 .wux {
-  background-color: violet;
-  background-image: linear-gradient(.333turn, violet, violet 50%, hotpink 50%, hotpink);
+  background-color: deepskyblue;
+  background-image: linear-gradient(.333turn, mediumpurple, mediumpurple 50%, transparent 50%, transparent);
 }
 
 .lux {
-  background-color: orchid;
-  background-image: linear-gradient(.333turn, violet, violet 50%, transparent 50%, transparent);
+  background-color: deepskyblue;
+  background-image: linear-gradient(.333turn, mediumpurple, mediumpurple 50%, transparent 50%, transparent);
 }
 
 .lix {
-  background-color: orchid;
-  background-image: linear-gradient(.333turn, violet, violet 30%, transparent 30%, transparent);
+  background-color: deepskyblue;
+  background-image: linear-gradient(.333turn, mediumpurple, mediumpurple 30%, transparent 30%, transparent);
 }
 
 .luv {
-  background-color: thistle;
-  background-image: linear-gradient(.666turn, violet, violet 50%, thistle 50%, thistle);
+  background-color: deepskyblue;
+  background-image: conic-gradient(mediumpurple, mediumpurple 50%, transparent 50%, transparent);
 }
 
 .bip { font-size: 1.236em }
@@ -43,7 +43,7 @@
 :focus {
   outline: thick double;
   text-decoration-style: dotted;
-  background-image: linear-gradient(.666turn, deepskyblue, deepskyblue 50%, skyblue 50%, skyblue);
+  background-image: linear-gradient(.666turn, deepskyblue, deepskyblue 50%, chartreuse 50%, chartreuse);
 }
 
 html {
@@ -67,13 +67,7 @@ a {
   padding: 1em;
 }
 
-menu {
-  list-style: circle;
-  margin: 0;
-  padding: 0;
-}
-
-nav {
+.flip {
   transform: rotate(180deg);
 }
 
